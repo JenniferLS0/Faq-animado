@@ -1,0 +1,21 @@
+.pergunta {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  width:850px;
+  margin-left:300px;
+}
+
+.pergunta input,
+.pergunta .resposta { display: none;text-align:center; }
+
+.pergunta label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align:center;
+}
+
+.pergunta input:checked ~ .resposta {
+  display: block
+}
